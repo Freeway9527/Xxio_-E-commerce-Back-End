@@ -4,6 +4,7 @@ const sequelize = require('../config/connection.js');
 
 class Tag extends Model {}
 
+// Initialize Tag model with columns
 Tag.init(
   {
     // define columns
