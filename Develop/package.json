@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "https://github.com/Freeway9527/Xxio_-E-commerce-Back-End"
   },
   "keywords": [],
-  "author": "",
+  "author": "Xeng Xiong",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.3"
