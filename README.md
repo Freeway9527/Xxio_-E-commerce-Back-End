@@ -7,6 +7,11 @@
 ## Description
 The objective was to establish an Express.js API and configure Sequelize to effectively communicate with a MySQL database.
 
+![Alt text](<Assets/images/MVC-Get Category.png>)
+![Alt text](<Assets/images/MVC-Get Product.png>)
+![Alt text](<Assets/images/MVC-Get Tag.png>)
+
+[E-Commerce Back End Video Demo]()
 
 ## Table of Contents
 1. [Installation](#installation)
