@@ -11,7 +11,9 @@ The objective was to establish an Express.js API and configure Sequelize to effe
 ![Alt text](<Assets/images/MVC-Get Product.png>)
 ![Alt text](<Assets/images/MVC-Get Tag.png>)
 
-[E-Commerce Back End Video Demo]()
+ Click on the link to watch a video demonstration:
+[(ORM): E-Commerce Back End Video Demo](https://drive.google.com/file/d/1Y7S_TaEZq8gIxApf62iHraNshHgt40Nq/view)
+
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -24,17 +26,27 @@ The objective was to establish an Express.js API and configure Sequelize to effe
 8. [Contact](#contact)
 
 ## Installation
+Make sure that you have Node.js install, if you do not have node.js, you can visit [Node.js website](https://nodejs.org/en).
+
+You will also need to add dependencies, in your terminal type in:
+
 ```
-`npm init`
-
-`npm i express`
-
-`npm install mysql2`
-
-`npm install sequelize`
-
-`npm install dotenv`
+npm init
 ```
+```
+npm i express
+```
+```
+npm install mysql2
+```
+```
+npm install sequelize
+```
+```
+npm install dotenv
+```
+
+
 ## Technologies
 
 <p align="center">
@@ -43,31 +55,45 @@ The objective was to establish an Express.js API and configure Sequelize to effe
   <img src="https://img.shields.io/badge/-Node.js-purple?logo=Node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/-npm-CB3837?logo=npm&logoColor=white" alt="npm">
   <img src="https://img.shields.io/badge/-Git-orange?logo=Git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/-Insomnia-purple?logo=Git&logoColor=white" alt="Git">
 </p>
 
 ## Usage
 
+Make sure you rename the `.env.EXAMPLE` file to `.env` Copy and paste the following lines of codes. 
+
+```
+DB_NAME=''
+DB_USER=''
+DB_PASSWORD=''
+```
+Than enter your information according to the data base and your information.
+
+
 To run the program, in your teminal type in:
 ```
-`mysql -u root -p`
+mysql -u root -p
+```
+Enter your password when you are prompt, if you do not have a password just hit enter.
+```
+source db/schema.sql
+```
+```
+Exit
 ```
 
-Enter your password when you are prompt, if no password just hit enter.
-
 ```
-`source db/schema.sql`
-
-`quit`
-
-`npm run seed`
-
-`npm start`
+npm run seed
+```
+```
+npm start
 ```
 
 
 ## Tests
 
-There are no unit testing written for this application.
+All testing was done through Insomnia using HTTP methods OF GET, POST, PUT, AND DELETE
+
 
 ## Credit
 
